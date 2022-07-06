@@ -1,0 +1,102 @@
+body{
+	background-color: #333336;
+	color: white;
+}
+
+#Barra a{
+	text-decoration: none;
+	color: #8C1616;
+}
+
+#Barra a:hover{
+	text-decoration: underline;
+	color: skyblue;
+}
+
+#Barra{
+	background:#000000;
+	position: absolute;/*Tomar todo el espacio*/
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+
+
+}
+
+#Barra ul{
+	list-style-type: bengali;
+	margin: 0px;
+	padding: 0px;
+
+}
+#Barra li{
+	float: left;
+}
+
+#Barra li a{
+	padding: 30px;
+}
+
+#Contenido{
+	max-width: 100%;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+	background-image: url(Fondo2.png);
+	/*background-color: #7A7A7A;*/
+	padding: 3%;
+	background-size: cover;
+	background-position: center;
+}
+
+#Contenido header{
+	height: 140px;
+	padding: 10px  20px;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-blend-mode: darken;
+	border-radius: 1em;
+}
+
+#Principal{
+	height: 600px;
+	width: 40%;
+	float: left;
+	padding: 4px;
+}
+#Secundario{
+	width: 40%;
+	float: left;
+	padding: 4px;
+}
+
+#Contenido footer{
+	text-align: center;
+	clear: both;
+	width: 100%;
+	background-color: #333336;
+	height: 10%;
+	border-radius: 1em ;
+}
+
+.Titulo{
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.card{
+	border: 0 ¡important;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) ;
+}
+
+.card-title{
+	min-height: 3 rem;
+}
+.card-text{
+	min-height: 10rem;
+}
+.cover-small{
+	height: 200px;
+	background-blend-mode:normal;
+}
